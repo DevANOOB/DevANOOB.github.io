@@ -1,0 +1,38 @@
+        <style>
+            /* 初始化样式 */
+            *{
+                margin: 0;
+                padding: 0;
+                /* 去掉没必要的样式 */
+                list-style: none;
+                text-decoration: none;
+            }
+            .nav{
+                height: 100px;
+                /* 渐变导航栏（不喜欢这个渐变，自行修改） */
+                background: linear-gradient(rgb(150, 150, 150),rgb(255, 255, 255));
+            }
+            .navlist li{
+                /* 左浮动；让文本变成横排 */
+                float: left;
+                height: 100px;
+                width: 150px;
+                /* 让文本水平垂直居中 */
+                line-height: 70px;
+                text-align: center;
+            }
+            .navlist a{
+                /* 超链改颜色 */
+                color: black;
+                /* 把超链接变成块 */
+                display: block;
+            }
+            .navlist{
+                /* 列表宽 */
+                width: 6016px;
+            }
+            .navlist a:hover{
+                /* 鼠标悬停颜色变化 */
+                background: rgb(255, 255, 255);
+            }
+        </style>
