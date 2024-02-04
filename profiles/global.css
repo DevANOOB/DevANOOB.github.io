@@ -36,4 +36,10 @@
                 /* 鼠标悬停颜色变化 */
                 background: rgb(255, 255, 255);
             }
+        body 
+        {
+        background-image:url('https://cpchengpu.github.io/CPchengpu.github.io.png');
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        }
         </style>
