@@ -1,4 +1,7 @@
         <style>
+        {
+	background-color:"black";
+        }
             /* 初始化样式 */
             *{
                 margin: 0;
