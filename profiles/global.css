@@ -6,6 +6,9 @@
                 /* 去掉没必要的样式 */
                 list-style: none;
                 text-decoration: none;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
             }
             .nav{
                 height: 100px;
