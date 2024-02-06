@@ -60,9 +60,46 @@
         </div>
 	<!-- #include virtual="https://cpchengpu.github.io/_tab.html" -->
 <img src="https://cpchengpu.github.io/CPchengpu.github.io两周年预告.png" alt="https://CPchengpu.github.io">
-<p>你好，这里是CPchengpu的第一个网站——https://cpchengpu.github.io，它创建于2022年3月21日</p>
+<p>你好，这里是CPchengpu的第一个网站——https://cpchengpu.github.io</p>
 <p>https://cpchengpu.github.io 为CPchengpu所有并运营 感谢GitHub提供技术支持</p>
 <p>©Copyright 2022-2024 Dev. CPchengpu</p>
+<script>
+    function secondToDate(second) {
+        if (!second) {
+            return 0;
+        }
+        var time = new Array(0, 0, 0, 0, 0);
+        if (second >= 365 * 24 * 3600) {
+            time[0] = parseInt(second / (365 * 24 * 3600));
+            second %= 365 * 24 * 3600;
+        }
+        if (second >= 24 * 3600) {
+            time[1] = parseInt(second / (24 * 3600));
+            second %= 24 * 3600;
+        }
+        if (second >= 3600) {
+            time[2] = parseInt(second / 3600);
+            second %= 3600;
+        }
+        if (second >= 60) {
+            time[3] = parseInt(second / 60);
+            second %= 60;
+        }
+        if (second > 0) {
+            time[4] = second;
+        }
+        return time;
+    }</script><script type="text/javascript" language="javascript">
+    function setTime() {
+        var create_time = Math.round(new Date(Date.UTC(2022, 02, 21, 20, 51, 0)).getTime() / 1000);
+        var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+        currentTime = secondToDate((timestamp - create_time));
+        currentTimeHtml = currentTime[0] + '年' + currentTime[1] + '天'
+                + currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4]
+                + '秒';
+        document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+    }    setInterval(setTime, 1000);</script>
+本站创建于2022年3月21日20点51分，已运行<span id="htmer_time" style="color: black;"></span>
 <p>遵循Apache License 2.0在Github上开源
     <p>我的邮箱：https://CPchengpu@outlook.com</p>
     <li> <a href="https://github.com/cpchengpu/cpchengpu.github.io">网站源代码</a> </li>
