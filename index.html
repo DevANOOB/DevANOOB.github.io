@@ -81,7 +81,7 @@
             time[3] = parseInt(second / 60);
             second %= 60;
         }
-        if (second > 0) {
+        if (second >= 0) {
             time[4] = second;
         }
         return time;
