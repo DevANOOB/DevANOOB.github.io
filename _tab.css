@@ -1,9 +1,5 @@
   <!--	#include virtual="https://github.com/CPchengpu/Support-CPchengpusWebsite/Tab.html"-->
-
-<!DOCTYPE html>
-    <head>
-        <meta charset="UTF-8">
-        <style>
+        
             /* 初始化样式 */
             *{
                 margin: 0;
@@ -40,23 +36,5 @@
                 /* 鼠标悬停颜色变化 */
                 background: rgb(255, 255, 255);
             }
-        </style>
-    </head>
-    <body>
-        <div class="nav">
-          
-            <!--列表-->
-          
-            <ul class="navlist">
-		<li> <a href="https://cpchengpu.github.io">CPchengpu的网站</a> </li>
-                <li> <a href="https://cpchengpu.github.io/scratch_file/main.html">Scratch作品</a> </li>
-                <li> <a href="https://cpchengpu.github.io/scratch_file_gb/main.html">Scratch改编作品</a> </li>
-                <li> <a href="https://cpchengpu.github.io/python_file/main.html">Python作品</a> </li>
-                <li> <a href="https://github.com/CPchengpu/robotclass">机器人社团作品</a> </li>
-                <li> <a href="https://cpchengpu.github.io/music_file/main.html">音乐作品</a> </li>
-                <li> <a href="https://cpchengpu.github.io/music/main.html">音乐播放器</a> </li>
-            </ul>
-        </div>
-    </body>
-</html>
- 
+
+	
