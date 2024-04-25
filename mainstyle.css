@@ -1,11 +1,11 @@
 
             /* 初始化样式 */
-            *{
+            *{  
                 margin: 0;
                 padding: 0;
-                /* 去掉没必要的样式 */
                 list-style: none;
                 text-decoration: none;
+		background-color: black
             }
             .nav{
                 height: 100px;
@@ -29,7 +29,7 @@
             }
             .navlist{
                 /* 列表宽 */
-                width: 1920px;
+                width: 1080px;
             }
             .navlist a:hover{
                 /* 鼠标悬停颜色变化 */
