@@ -4,7 +4,6 @@
                 padding: 0;
                 list-style: none;
                 text-decoration: none;
-		background-color: black
             }
             .nav{
                 height: 100px;
@@ -34,19 +33,6 @@
                 /* 鼠标悬停颜色变化 */
                 background: rgb(155, 155, 155);
             }
-
-            .p{
-		color:white
-	    }
-            .h1{
-		color:white
-	    }
-            .h2{
-		color:white
-	    }
-            .h3{
-		color:white
-	    }
 		
 
 	
