@@ -1,7 +1,7 @@
 @font-face
 {	
-	src: "/simhei.ttf";
 	font-family: "simhei";
+	src: url("/simhei.ttf");
 }
 
 *{  
