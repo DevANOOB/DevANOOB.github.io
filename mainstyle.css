@@ -1,10 +1,11 @@
 @font-face
 {	
-	font-family: "simhei";
-	src: url("/simhei.ttf");
+	font-family: "msyh";
+	src: url("/msyh.ttc");
 }
 
 *{  
+	font-family:msyh;
 	margin: 0;
         padding: 0;
         list-style: none;
@@ -33,7 +34,7 @@
         background: rgb(155, 155, 155);
 }
 .title{
-	font-family:simhei;
+	font-family:msyh;
 	font-style:italic;
 	font-weight:bold;
 }
