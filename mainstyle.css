@@ -1,13 +1,12 @@
 @font-face
 {	
-	font-family: "msyh";
+	font-family: msyh;
 	src: url("/msyh.ttc");
-	font-family: "msyhbd";
+	font-family: msyhbd;
 	src: url("/msyhbd.ttc");
 }
 
 *{  
-	font-family:msyh;
 	margin: 0;
         padding: 0;
         list-style: none;
@@ -39,6 +38,18 @@
 	font-family:msyhbd;
 	font-style:italic;
 	font-weight:bold;
+}
+.p{
+	font-family:msyh;
+}
+.h1{
+	font-family:msyh;
+}
+.h2{
+	font-family:msyh;
+}
+.h3{
+	font-family:msyh;
 }
 		
 
