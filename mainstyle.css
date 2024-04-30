@@ -2,6 +2,8 @@
 {	
 	font-family: "msyh";
 	src: url("/msyh.ttc");
+	font-family: "msyhbd";
+	src: url("/msyhbd.ttc");
 }
 
 *{  
@@ -34,7 +36,7 @@
         background: rgb(155, 155, 155);
 }
 .title{
-	font-family:msyh;
+	font-family:msyhbd;
 	font-style:italic;
 	font-weight:bold;
 }
