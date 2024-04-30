@@ -1,7 +1,7 @@
 @font-face
 {	
 	font-family: "simhei";
-	src: url(simhei.ttf");
+	src: url("/simhei.ttf");
 }
 
 *{  
@@ -33,6 +33,7 @@
         background: rgb(155, 155, 155);
 }
 .title{
+	font-family:simhei;
 	font-style:italic;
 	font-weight:bold;
 }
