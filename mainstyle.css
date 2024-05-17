@@ -14,13 +14,13 @@
 }
 		
 .nav{
-        height: 100px;
+        height: 70px;
         background: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
 }
 .navlist li{
         float: left;
         height: 70px;
-        width: 100px;
+        width: 150px;
         line-height: 70px;
         text-align: center;
 }
