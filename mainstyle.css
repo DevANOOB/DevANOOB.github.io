@@ -12,6 +12,9 @@
         list-style: none;
         text-decoration: none;
 }
+body{
+	background-color:rgb(0, 0, 0);
+}
 		
 .nav{
         height: 70px;
@@ -43,15 +46,19 @@
 }
 p{
 	font-family:msyh;
+	color:rgb(255, 255, 255)
 }
 h1{
 	font-family:msyh;
+	color:rgb(255, 255, 255);
 }
 h2{
 	font-family:msyh;
+	color:rgb(255, 255, 255);
 }
 h3{
 	font-family:msyh;
+	color:rgb(255, 255, 255);
 }
 a{
 	color: #8A2BE2;
