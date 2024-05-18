@@ -57,6 +57,10 @@ h3{
 	font-family:msyh;
 	color:rgb(255, 255, 255);
 }
+.text{
+	font-family:msyh;
+	color:rgb(255, 255, 255);
+}
 .timer{
 	font-family:msyh;
 	color:rgb(255, 255, 255);
@@ -68,12 +72,5 @@ a{
 body{
 	background-color:rgb(0, 0, 0);
 }
-.autoent {
-    width: 500px;
-    height: 500px;
-    border: 1px solid black;
-    padding: 10px;
-    overflow: scroll;
-  }
 
 	
