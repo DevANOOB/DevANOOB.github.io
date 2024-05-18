@@ -15,7 +15,7 @@
 		
 .nav{
         height: 70px;
-        background: linear-gradient(rgb(50, 50, 50),rgb(50, 50, 50));
+        background: linear-gradient(rgb(70, 70, 70),rgb(70, 70, 70));
 }
 .navlist li{
         float: left;
@@ -32,7 +32,7 @@
 	width: 1080px;
 }
 .navlist a:hover{
-        background: rgb(0, 0, 0);
+        background: rgb(30, 30, 30);
 }
 .title{
 	font-family:msyhbd;
