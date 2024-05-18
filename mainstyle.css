@@ -32,7 +32,7 @@
 	width: 1080px;
 }
 .navlist a:hover{
-        background: rgb(20, 20, 20);
+        background: rgb(40, 40, 40);
 }
 .title{
 	font-family:msyhbd;
@@ -52,6 +52,6 @@ h3{
 	font-family:msyh;
 }
 a{
-	color: #FFA500;
+	color: #8A2BE2;
 }
 	
