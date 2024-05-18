@@ -60,6 +60,7 @@ h3{
 .timer{
 	font-family:msyh;
 	color:rgb(255, 255, 255);
+	white-space: nowrap;
 }
 a{
 	color: #8A2BE2;
